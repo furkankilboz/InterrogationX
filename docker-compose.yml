@@ -1,0 +1,28 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    image: interrogationx:latest
+    container_name: ixd_app
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    volumes:
+      - chroma_data:/app/chroma_store
+      - ./forensic_statements_data_en.json:/app/forensic_statements_data_en.json:ro
+    environment:
+      - FLASK_ENV=production
+      - IXD_DATA=/app/forensic_statements_data_en.json
+      - IXD_DB=/app/interrogation_x.db
+      - PYTHONUNBUFFERED=1
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/api/cases"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 90s
+
+volumes:
+  chroma_data:
+    driver: local

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>InterrogationX</title>
+    <link rel="stylesheet" href="/static/css/style.css"/>
+</head>
+<body>
+
+<header class="hdr">
+    <span class="hdr-logo">InterrogationX</span>
+    <span class="hdr-sep"></span>
+    <span class="hdr-tag">Contradiction &amp; Similarity Analysis of Defendant &amp; Witness Statements</span>
+    <span class="hdr-badge">NLP ENGINE</span>
+</header>
+
+<main class="shell">
+
+    <aside class="sidebar">
+
+        <div class="card">
+            <div class="card-t">Mode</div>
+            <div class="mode-bar">
+                <button class="mode-b on" id="bCase" onclick="setMode('case')">Dataset Case</button>
+                <button class="mode-b" id="bCustom" onclick="setMode('custom')">Custom Input</button>
+            </div>
+        </div>
+
+        <div class="card" id="pCase">
+            <div class="card-t">Select Case</div>
+            <select id="caseSel" class="sel">
+                <option value="">— loading cases —</option>
+            </select>
+            <button class="btn btn-go" onclick="analyzeCase()" id="goBtn">Run Analysis</button>
+        </div>
+
+        <div class="card hidden" id="pCustom">
+            <div class="card-t">Custom Statements</div>
+            <label class="lbl">Defendant / Suspect Statement</label>
+            <textarea id="inSuspect" class="txa" rows="4" placeholder="Enter defendant statement..."></textarea>
+            <label class="lbl">Witness Statements</label>
+            <textarea id="inW1" class="txa" rows="3" placeholder="Witness 1..."></textarea>
+            <textarea id="inW2" class="txa" rows="3" placeholder="Witness 2 (optional)..."></textarea>
+            <textarea id="inW3" class="txa" rows="3" placeholder="Witness 3 (optional)..."></textarea>
+            <button class="btn btn-go" onclick="analyzeCustom()" id="goBtn2">Run Analysis</button>
+        </div>
+
+        <div class="card" id="stmtCard" style="display:none">
+            <div class="card-t">Loaded Statements</div>
+            <div class="stmt">
+                <span class="rbadge sus">DEFENDANT</span>
+                <p id="dSus"></p>
+            </div>
+            <div id="dWit"></div>
+        </div>
+
+        <div class="card">
+            <div class="card-t">
+                History
+                <button class="btn-s" onclick="loadHistory()">Refresh</button>
+            </div>
+            <div id="histList" class="hist">
+                <span class="muted">No history yet.</span>
+            </div>
+        </div>
+
+    </aside>
+
+    <section class="content">
+
+        <div class="spin-w hidden" id="spinner">
+            <div class="spin"></div>
+            <p>Analyzing statements...</p>
+        </div>
+
+        <div id="sumCards" class="metrics hidden"></div>
+
+        <div id="wTabs" class="card hidden">
+            <div class="wtabs" id="wTabBar"></div>
+            <div id="wTabContent"></div>
+        </div>
+
+        <div id="hmSec" class="card hidden">
+            <div class="card-t">
+                Sentence Similarity Heatmap
+                <span class="wlbl" id="hmLbl"></span>
+            </div>
+            <div class="hm-scroll">
+                <canvas id="hmCanvas"></canvas>
+            </div>
+            <div class="hm-legend">
+                <span>0.0 — Unrelated</span>
+                <div class="hm-grad"></div>
+                <span>1.0 — Identical</span>
+            </div>
+        </div>
+
+        <div id="pairSec" class="card hidden">
+            <div class="card-t">
+                Sentence Pair Analysis
+                <span class="badge" id="pairBadge"></span>
+            </div>
+            <div class="frow">
+                <button class="fbtn on" data-r="ALL" onclick="filterP(this)">All</button>
+                <button class="fbtn" data-r="CONTRADICTION" onclick="filterP(this)">Contradictions</button>
+                <button class="fbtn" data-r="CORROBORATION" onclick="filterP(this)">Corroborations</button>
+                <button class="fbtn" data-r="PARTIAL_MATCH" onclick="filterP(this)">Partial</button>
+            </div>
+            <div class="tw">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>W#</th>
+                            <th>Defendant Sentence</th>
+                            <th>Witness Sentence</th>
+                            <th>Similarity</th>
+                            <th>Confidence</th>
+                            <th>Relationship</th>
+                            <th>Signals</th>
+                        </tr>
+                    </thead>
+                    <tbody id="pairBody"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <div id="topC" class="card hidden">
+            <div class="card-t">Top Contradictions</div>
+            <div id="cList" class="hlist"></div>
+        </div>
+
+        <div id="topS" class="card hidden">
+            <div class="card-t">Top Corroborations</div>
+            <div id="sList" class="hlist"></div>
+        </div>
+
+        <div id="dfSec" class="card hidden">
+            <div class="card-t">Witness Summary</div>
+            <div class="tw">
+                <table>
+                    <thead id="dfHead"></thead>
+                    <tbody id="dfBody"></tbody>
+                </table>
+            </div>
+        </div>
+
+    </section>
+
+</main>
+
+<footer class="ftr">
+    InterrogationX · Forensic Statement Analysis ·
+    Python · Flask · SpaCy · Scikit-learn · Pandas · LangChain · ChromaDB
+</footer>
+
+<script src="/static/js/app.js"></script>
+</body>
+</html>
