@@ -1,0 +1,70 @@
+{
+  "session_id": "alibi-0067",
+  "title": "Interrogation of Rachel Zheng",
+  "subject": "Rachel Zheng",
+  "baseline_turns": 1,
+  "evidence": [
+    {
+      "label": "Fact 1",
+      "text": "Her ex-boyfriend, Tyler Morrison, was found dead in his apartment"
+    },
+    {
+      "label": "Fact 2",
+      "text": "They broke up acrimoniously three months ago and she sent angry texts, but she was not violent"
+    },
+    {
+      "label": "Fact 3",
+      "text": "She was at a work dinner at Nobu with six colleagues at the time of the murder"
+    }
+  ],
+  "turns": [
+    {
+      "question": "Ms. Zheng, thanks for coming in. I'm Detective Hartley. I need to ask about Tyler Morrison.",
+      "answer": "Detective, I'm going to be direct with you because that's how I operate. Tyler is dead, and that's awful. We dated for a year. We broke up. It was ugly. I'm sure you have my angry text messages. And now you think the ex-girlfriend did it, because that's the obvious theory. So let me save us both some time: I was at Nobu with six Goldman VPs from seven to eleven thirty on the night Tyler died. Check my AmEx. Check with the restaurant. Check with any of the six people at the table. Can we be done?",
+      "observations": [
+        {
+          "channel": "posture",
+          "cue": "sits forward, arms crossed, radiating impatience",
+          "intensity": 2,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "question": "Those texts were pretty aggressive. You threatened to, quote, 'make him pay for what he did.' What did he do?",
+      "answer": "He cheated on me with his personal trainer, which is such a cliche it's almost insulting. \"Make him pay\" meant I was going to make sure our mutual friends knew what kind of person he was. It's an expression, Detective. People say things when they're hurt and angry. If angry text messages were evidence of murder, half the population would be in prison. Respectfully, do you have actual evidence or are you building a case on emoji analysis?",
+      "observations": []
+    },
+    {
+      "question": "Tyler's neighbors heard a woman's voice arguing with him two days before he died. Could that have been you?",
+      "answer": "No. I haven't been to Tyler's apartment since I moved my things out eight weeks ago. If a woman was arguing with him, it was probably his new girlfriend -- the personal trainer I mentioned. Her name is Jess Malone. Have you talked to her, or are you only interested in the ex?",
+      "observations": []
+    },
+    {
+      "question": "We're talking to everyone. Where were you between 8 PM and midnight on Tuesday night?",
+      "answer": "I just told you. Nobu. Seven to eleven thirty. Work dinner for the Alderton deal team. I ordered the black cod, if that helps. My managing director, Brian Park, was sitting next to me. He will confirm I was there for the full four and a half hours, complaining about the deal timeline. Because that is what I do at work dinners.",
+      "observations": []
+    },
+    {
+      "question": "After dinner -- between 11:30 PM and midnight -- where did you go?",
+      "answer": "I took an Uber home. Alone. I was in my apartment in Murray Hill by midnight. You can check the Uber receipt, and my building has camera footage of me entering at eleven fifty-two. I went to bed. This is not complicated.",
+      "observations": []
+    },
+    {
+      "question": "Did Tyler have any enemies? Anyone who might have wanted to hurt him?",
+      "answer": "Tyler owed money to a lot of people. He had a gambling problem he thought nobody knew about. He borrowed from his brother, his friends, and at least one person I'd categorize as not a legitimate lender, if you understand what I'm saying. If you're looking for someone with a motive to hurt Tyler, start with whoever he owed money to, not the ex-girlfriend who makes three hundred thousand a year and had zero financial entanglement with him. Are we done? I have a nine AM call with Tokyo.",
+      "observations": [
+        {
+          "channel": "hands",
+          "cue": "sharp gesture",
+          "intensity": 2,
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "source": "solarkyle/alibi-interrogation-dataset (Apache-2.0), synthetic dialogue #67",
+  "ground_truth": {
+    "alibi": "truth"
+  }
+}

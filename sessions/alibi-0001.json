@@ -1,0 +1,162 @@
+{
+  "session_id": "alibi-0001",
+  "title": "Interrogation of Kevin Marsh",
+  "subject": "Kevin Marsh",
+  "baseline_turns": 1,
+  "evidence": [
+    {
+      "label": "Fact 1",
+      "text": "Kevin stabbed Danny Gallagher outside Mulligan's Bar at approximately 11:45 PM after Danny made advances toward Kevin's girlfriend, Tara"
+    },
+    {
+      "label": "Fact 2",
+      "text": "He used a kitchen knife he had in his car (he often takes knives home to sharpen them)"
+    },
+    {
+      "label": "Fact 3",
+      "text": "He hid the bloody knife in the wheel well of his car and burned his shirt in a fire pit at home"
+    },
+    {
+      "label": "Fact 4",
+      "text": "Danny was alive when Kevin left, but bled out before paramedics arrived"
+    }
+  ],
+  "turns": [
+    {
+      "question": "Sit down, Kevin. You know why you're here. Danny Gallagher. Tell me where you were last night.",
+      "answer": "Where I was? I mean, I was -- I was at Mulligan's for a bit, yeah. Had a couple beers after my shift. But like, I left early. Like ten-thirty. Dude, this is crazy, I didn't even -- I heard about Danny this morning and I was like, what? Seriously? That's insane. I barely even knew the guy.",
+      "observations": [
+        {
+          "channel": "legs",
+          "cue": "drops into chair, immediately starts bouncing both knees",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "hands",
+          "cue": "cracks knuckles",
+          "intensity": 2,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "question": "Don't give me that. You and Danny got into it at the bar. Three witnesses saw you screaming at him. What was that about?",
+      "answer": "Got into it? We didn't -- I mean, okay, we had like a disagreement. It was nothing. It was stupid. He was being -- -- this is insane. He was being a jerk, okay? He was drunk and being loud and like, whatever, I told him to chill out and he got in my face. But that's it. I left after that. I left. Ten-thirty, like I said.",
+      "observations": [
+        {
+          "channel": "posture",
+          "cue": "shifts in seat aggressively",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "voice",
+          "cue": "mumbles",
+          "intensity": 2,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "question": "Funny, because the bartender says you were still there at eleven-fifteen. She remembers because she comped you a beer to calm you down.",
+      "answer": "Okay, okay -- maybe it was a little later than ten-thirty. I'm not like watching the clock, you know? Maybe it was closer to eleven. Eleven-fifteen, whatever. But I still left before anything happened. Like, way before. And I drove straight home. Ask Tara. She was there when I got home. She'll tell you.",
+      "observations": [
+        {
+          "channel": "hands",
+          "cue": "sweating, wipes forehead with sleeve",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "hands",
+          "cue": "cracks knuckles again",
+          "intensity": 2,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "question": "We already talked to Tara. She says she was asleep and didn't hear you come in. She has no idea what time you got home. So that alibi's gone, Kevin.",
+      "answer": "She -- what? No, she was -- dude, she was awake. She was on the couch. I talked to her. This is crazy. This is seriously crazy. She probably just, like, forgot, or she was half asleep and doesn't remember. But I was there. I was home by like eleven-thirty at the latest. I was playing Call of Duty, you can check my -- my Xbox logs or whatever. There's gotta be a record.",
+      "observations": [
+        {
+          "channel": "posture",
+          "cue": "stands up abruptly, then sits back down",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "hands",
+          "cue": "runs hands through hair repeatedly",
+          "intensity": 2,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "question": "I'll check your Xbox. I'll also check your car, which we've impounded. Want to tell me what we're going to find in that car, Kevin?",
+      "answer": "My car? What -- why would you -- there's nothing in my car. It's just my car. I mean, there's work stuff in there. Like, aprons and whatever. I'm a cook, I bring stuff home sometimes. You can't just take my car, can you? Don't you need a warrant for that? This is insane, this is insane, this is insane.",
+      "observations": [
+        {
+          "channel": "voice",
+          "cue": "color drains from face, voice drops to near-whisper",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "legs",
+          "cue": "bounces knees frantically",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "voice",
+          "cue": "swallows repeatedly",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "voice",
+          "cue": "mumbling",
+          "intensity": 2,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "question": "We have a warrant. And Kevin? Danny was stabbed with a large kitchen knife. You're a line cook who keeps knives in his car. Last chance to tell me what happened before we find it ourselves.",
+      "answer": "I -- look -- -- I keep knives in my car because I sharpen them at home, okay? That's not illegal. Every cook does that. That doesn't mean I -- -- dude, I didn't stab anyone. Danny was fine when I left. He was standing right there being a drunk idiot and I went home. If there's a knife in my car, it's because I'm a cook. That's my job. Like, seriously, you're gonna arrest me because I own knives? This is insane. I want a lawyer. I think I want a lawyer.",
+      "observations": [
+        {
+          "channel": "other",
+          "cue": "full body trembling, grabs edge of table",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "voice",
+          "cue": "voice cracking",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "voice",
+          "cue": "cracks knuckles so hard they pop loudly",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "voice",
+          "cue": "mumbling",
+          "intensity": 2,
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "source": "solarkyle/alibi-interrogation-dataset (Apache-2.0), synthetic dialogue #1",
+  "ground_truth": {
+    "alibi": "lie"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "session_id": "alibi-0066",
+  "title": "Interrogation of Dr. Samuel Osei",
+  "subject": "Dr. Samuel Osei",
+  "baseline_turns": 1,
+  "evidence": [
+    {
+      "label": "Fact 1",
+      "text": "His colleague Dr. Peters was found dead in the hospital parking garage"
+    },
+    {
+      "label": "Fact 2",
+      "text": "Samuel had a professional rivalry with Peters but no personal animosity"
+    },
+    {
+      "label": "Fact 3",
+      "text": "He was performing emergency surgery at the time of the murder, with an entire OR team as witnesses"
+    }
+  ],
+  "turns": [
+    {
+      "question": "Dr. Osei, I'm Detective Franklin. I need to ask about Dr. Harrison Peters.",
+      "answer": "Detective Franklin. Harrison's death is a tragedy for the hospital and for the medical community. He was a colleague, and while we did not always agree on clinical matters, I respected his work. I have forty minutes before I am needed on rounds. How may I assist you?",
+      "observations": [
+        {
+          "channel": "hands",
+          "cue": "sits with impeccable posture, hands clasped on the table",
+          "intensity": 2,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "question": "We understand you and Dr. Peters had a significant professional rivalry. Some would call it hostile.",
+      "answer": "Professional disagreement is not hostility. Harrison and I had different approaches to neurovascular treatment. I advocated for microsurgical techniques; he preferred endovascular. We debated this at conferences, in journals, and in departmental meetings. Vigorous debate is the engine of medical progress. If disagreeing with a colleague made one a murder suspect, every physician in this hospital would be in this chair.",
+      "observations": []
+    },
+    {
+      "question": "Dr. Peters blocked your promotion to department chair last year. That must have been frustrating.",
+      "answer": "It was disappointing, not frustrating. The committee ultimately agreed with my candidacy, and I received the appointment this year. The process worked. These things take time in academic medicine. I did not need Harrison's approval, and I certainly did not need him removed to advance my career. My record speaks for itself -- two hundred published papers, three textbook chapters, and a surgical volume that ranks in the top five nationally.",
+      "observations": []
+    },
+    {
+      "question": "Where were you the night Dr. Peters was killed? Between 10 PM and midnight specifically.",
+      "answer": "I was in Operating Room 4, performing an emergency craniotomy on a thirty-four-year-old woman with a subdural hematoma. The surgery began at eight PM and concluded at approximately two AM. I was elbow-deep in a human brain, Detective. My anesthesiologist, my surgical fellow, my scrub nurse, two circulating nurses, and a medical student were all present for the duration. The hospital's electronic system logged my badge access to the OR suite at seven forty-seven PM. I did not leave the operating theater until the patient was stable and transferred to the ICU.",
+      "observations": []
+    },
+    {
+      "question": "We'll verify that. Is there anyone you can think of who had a real grudge against Dr. Peters?",
+      "answer": "Harrison could be abrasive. He antagonized the nursing staff regularly, and I know he was involved in a malpractice dispute that generated considerable animosity. I would suggest you look into that matter rather than questioning a man who was performing lifesaving surgery at the time of the killing. I came to this country with nothing. I built my career through discipline, skill, and integrity. The suggestion that I would throw that away is not merely wrong -- it is insulting. Are we finished?",
+      "observations": [
+        {
+          "channel": "voice",
+          "cue": "controlled exhale",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "eyes",
+          "cue": "meets the detective's eyes",
+          "intensity": 2,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "question": "Almost. Just to be thorough -- did you leave the OR at any point during the surgery?",
+      "answer": "No. A craniotomy is not a procedure one pauses for a coffee break. From first incision to final closure, I was at the table. My surgical fellow can attest to every minute. Detective, I understand you must investigate every possibility. But I would respectfully suggest that your time -- and mine -- would be better spent pursuing leads that are not contradicted by eight witnesses and an electronic access log. My patient lived because I was in that operating room. That is where I was. That is all there is to say.",
+      "observations": [
+        {
+          "channel": "posture",
+          "cue": "stands",
+          "intensity": 2,
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "source": "solarkyle/alibi-interrogation-dataset (Apache-2.0), synthetic dialogue #66",
+  "ground_truth": {
+    "alibi": "truth"
+  }
+}

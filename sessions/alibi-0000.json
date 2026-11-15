@@ -1,0 +1,174 @@
+{
+  "session_id": "alibi-0000",
+  "title": "Interrogation of Denise Whitfield",
+  "subject": "Denise Whitfield",
+  "baseline_turns": 1,
+  "evidence": [
+    {
+      "label": "Fact 1",
+      "text": "Denise poisoned her husband Robert's evening tea with a lethal dose of digitalis she stole from the pharmacy"
+    },
+    {
+      "label": "Fact 2",
+      "text": "She did it because Robert was physically abusive for years and she saw no other way out"
+    },
+    {
+      "label": "Fact 3",
+      "text": "She carefully measured the dose over three days, adding it incrementally"
+    },
+    {
+      "label": "Fact 4",
+      "text": "She washed the mug thoroughly afterward and disposed of the digitalis vial in a dumpster behind the grocery store"
+    }
+  ],
+  "turns": [
+    {
+      "question": "Hi Denise. Thank you for coming in. I know this is a difficult time. Can you just walk me through that evening -- the night before you found Robert?",
+      "answer": "Yeah, um, of course. So it was just a normal evening, you know? I mean, totally normal. I got home from work around five-thirty, maybe five-forty-five -- actually, I think it was closer to five-thirty because I remember the traffic wasn't bad, which is unusual for a Tuesday, you know what I mean? And I made dinner -- it was chicken, the lemon chicken recipe I always make, nothing special -- and then Robert was watching TV and I made his tea like I always do. He likes -- liked -- chamomile. And then I had a migraine so I went to bed early. That's... that's really it. Honestly.",
+      "observations": [
+        {
+          "channel": "eyes",
+          "cue": "picks at fingernails, not making eye contact",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "voice",
+          "cue": "voice catches",
+          "intensity": 2,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "question": "That's helpful, Denise. You mentioned you made his tea. What time was that, roughly?",
+      "answer": "Oh, um, the tea? It was -- I mean, I always make it after dinner, so probably around... seven-thirty? Maybe eight? I honestly don't -- I don't check the clock every time I boil water, you know? It's just part of the routine. I make it in his favorite mug, the blue one with the chip on the handle. He's had that mug for years. I mean, had. Sorry, I keep doing that. I just -- it's hard to talk about him in past tense, you know what I mean?",
+      "observations": [
+        {
+          "channel": "legs",
+          "cue": "bounces knee rapidly",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "voice",
+          "cue": "nervous laugh",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "hands",
+          "cue": "touches hair",
+          "intensity": 2,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "question": "I completely understand. Now, Denise, you work at a pharmacy. Are you familiar with a drug called digitalis?",
+      "answer": "Digitalis? I mean, yeah, I -- I work in a pharmacy, so I know what it is. It's a heart medication. Digoxin, digitalis, it's -- I mean, we carry it obviously. Lots of pharmacies do. It's pretty common for cardiac patients. Why do you -- why are you asking me about digitalis specifically? Did the -- is that what they found? I mean, Robert didn't have a heart condition. He was healthy. He was very -- -- I'm sorry, why are you asking me about this?",
+      "observations": [
+        {
+          "channel": "hands",
+          "cue": "freezes briefly, then starts picking at nails faster",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "voice",
+          "cue": "swallows hard",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "legs",
+          "cue": "knee bouncing intensifies",
+          "intensity": 2,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "question": "The toxicology report showed lethal levels of digitalis in Robert's system. And you just told me he didn't have a heart condition, so there'd be no reason for him to be taking it.",
+      "answer": "That's -- I mean, that's -- no, that can't -- how would he even -- I don't understand. I didn't -- are you saying someone gave it to him? Because I made his tea and it was just chamomile, the same tea bags from the box in the cupboard, the Celestial Seasonings ones, you can go check, the box is still there. I didn't put anything in his tea. I would never -- -- I mean, I know I work at a pharmacy but that doesn't mean I would -- honestly, you can check the pharmacy inventory, everything is accounted for. I'm sure it is. It has to be.",
+      "observations": [
+        {
+          "channel": "voice",
+          "cue": "voice goes higher",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "hands",
+          "cue": "presses hands together tightly",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "emotion",
+          "cue": "eyes filling with tears",
+          "intensity": 2,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "question": "Actually, Denise, we did check. There's a discrepancy in the digitalis inventory at your pharmacy. About twenty tablets are unaccounted for over the past month.",
+      "answer": "That -- that could be anyone. I'm not the only person who works there. There's Carl and Megan and the new girl, what's her name -- Priya. Anyone could have -- -- I mean, inventory discrepancies happen all the time. All the time. Ask any pharmacy. Things get miscounted or dropped or, you know, damaged and written off. You can't just -- you can't just pin that on me because my husband -- I'm sorry. I'm sorry, I just -- I have anxiety, clinical anxiety, I take medication for it, and this whole situation is just -- I can't think straight right now. I honestly can't.",
+      "observations": [
+        {
+          "channel": "facial",
+          "cue": "goes pale, hands trembling",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "voice",
+          "cue": "voice cracking",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "hands",
+          "cue": "stops abruptly, pressing hand to mouth",
+          "intensity": 2,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "question": "Denise, I have to ask. Were things okay between you and Robert? At home, I mean.",
+      "answer": "We were fine. We were -- -- things were... I mean, every marriage has its problems, right? No marriage is perfect. He could be... difficult sometimes. He had a temper. But that's just -- that's just how he was. He didn't mean anything by it. We were working on things. We were going to try counseling. I was looking into it. I loved him. I -- -- I didn't do this. I didn't. You have to believe me. I mean, I know how it looks with the pharmacy thing, but I swear, I would never hurt anyone. I'm not -- I'm not that kind of person. Honestly.",
+      "observations": [
+        {
+          "channel": "emotion",
+          "cue": "long pause, jaw tightens, then tears start flowing",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "voice",
+          "cue": "voice breaks",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "hands",
+          "cue": "unconsciously touches a faded bruise on her wrist, then quickly pulls her sleeve down",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "hands",
+          "cue": "picks at nails so hard one bleeds",
+          "intensity": 2,
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "source": "solarkyle/alibi-interrogation-dataset (Apache-2.0), synthetic dialogue #0",
+  "ground_truth": {
+    "alibi": "lie"
+  }
+}

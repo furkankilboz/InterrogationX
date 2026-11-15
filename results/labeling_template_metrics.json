@@ -1,0 +1,6 @@
+{
+  "file": "labels/labeling_template.csv",
+  "pairs": 40,
+  "labeled_pairs": 0,
+  "systems": {}
+}

@@ -1,0 +1,41 @@
+﻿pair_id,category,suspect_statement,witness_statement,label,source
+C01,negation,I was at the café reading my emails. I did not touch the phone on the next table.,The suspect picked up the phone from the next table and put it in his pocket.,contradictory,written for this project; label by construction
+C02,negation,I paid for the groceries at the counter before leaving.,The suspect left the supermarket without paying for the groceries.,contradictory,written for this project; label by construction
+C03,negation,I never got out of my car during the argument.,The suspect got out of his car and walked towards the other driver.,contradictory,written for this project; label by construction
+C04,negation,I didn't raise my voice at the waiter. I just asked for the bill.,The suspect shouted at the waiter while asking for the bill.,contradictory,written for this project; label by construction
+C05,negation,I locked the office door when I left at night.,The office door was left unlocked after the suspect went home.,contradictory,written for this project; label by construction
+C06,negation,I did not see the accident because I was inside the shop.,The suspect was standing on the street and watched the accident happen.,contradictory,written for this project; label by construction
+C07,time_shift,I arrived at the bank at 9 AM and left about twenty minutes later.,The suspect entered the bank at 3 PM.,contradictory,written for this project; label by construction
+C08,time_shift,I left the party at 10 PM and went straight home.,The suspect was still at the party at 1 AM.,contradictory,written for this project; label by construction
+C09,time_shift,I was at the gym on Monday evening.,The suspect only came to the gym on Saturday morning that week.,contradictory,written for this project; label by construction
+C10,time_shift,I parked the car around 7 PM.,The suspect parked his car shortly after midnight.,contradictory,written for this project; label by construction
+C11,location_change,I spent the whole evening at home with my family.,The suspect was at the downtown bar the whole evening.,contradictory,written for this project; label by construction
+C12,location_change,I waited for the bus at the north entrance of the station.,The suspect was waiting at the south entrance of the station.,contradictory,written for this project; label by construction
+C13,location_change,I was in the library on the second floor when the alarm went off.,"When the alarm went off, the suspect was in the parking lot.",contradictory,written for this project; label by construction
+C14,location_change,I stayed in my seat during the whole concert.,The suspect left his seat and climbed onto the stage during the concert.,contradictory,written for this project; label by construction
+C15,actor_swap,"The other man threw the first punch, and I only defended myself.",The suspect threw the first punch at the other man.,contradictory,written for this project; label by construction
+C16,actor_swap,"My colleague sent the files to the client, not me.",The suspect sent the files to the client himself.,contradictory,written for this project; label by construction
+C17,actor_swap,My roommate broke the window while we were playing football.,The suspect kicked the ball that broke the window.,contradictory,written for this project; label by construction
+C18,actor_swap,The cashier started the argument by insulting me.,The suspect started the argument by insulting the cashier.,contradictory,written for this project; label by construction
+C19,number_change,I only had two beers that night.,The suspect drank at least six beers that night.,contradictory,written for this project; label by construction
+C20,number_change,There were three people in the car with me.,The suspect was alone in the car.,contradictory,written for this project; label by construction
+C21,number_change,I took one bag from the shelf and paid for it.,The suspect took four bags from the shelf.,contradictory,written for this project; label by construction
+C22,paraphrase,I was driving slowly because the road was icy. A dog ran in front of my car and I braked hard.,The suspect was going slowly on the icy road and stopped suddenly when a dog ran out.,consistent,written for this project; label by construction
+C23,paraphrase,I asked the neighbor politely to turn the music down.,The suspect calmly requested that the neighbor lower the volume of the music.,consistent,written for this project; label by construction
+C24,paraphrase,I returned the borrowed laptop to the IT department on Friday.,On Friday the suspect brought the laptop back to IT.,consistent,written for this project; label by construction
+C25,paraphrase,I apologized to her right after the meeting.,"Immediately after the meeting, the suspect said sorry to her.",consistent,written for this project; label by construction
+C26,paraphrase,I left the store as soon as the argument started.,The suspect walked out of the store right when the argument began.,consistent,written for this project; label by construction
+C27,paraphrase,I called the police and waited next to the injured cyclist.,The suspect phoned the police and stayed beside the injured cyclist until help came.,consistent,written for this project; label by construction
+C28,extra_detail,I was at the bus stop at 8 AM.,"The suspect was at the bus stop at 8 AM, wearing a red jacket and holding an umbrella.",consistent,written for this project; label by construction
+C29,extra_detail,I bought a coffee and left the café.,"The suspect bought a large coffee, chatted with the barista for a minute, and left.",consistent,written for this project; label by construction
+C30,extra_detail,I helped the old man pick up his groceries.,The suspect helped an elderly man collect his groceries. It was raining and the street was crowded.,consistent,written for this project; label by construction
+C31,extra_detail,I knocked on the door twice and then went home.,"The suspect knocked twice on the door. Nobody answered, and he went home.",consistent,written for this project; label by construction
+C32,extra_detail,I was working at my desk all afternoon.,The suspect was at his desk all afternoon. He took a short phone call around 3 PM.,consistent,written for this project; label by construction
+C33,uncertain_witness,I did not take any money from the register.,"I saw the suspect near the register, but I couldn't see whether he took anything.",partially_consistent,written for this project; label by construction
+C34,uncertain_witness,I was home all night.,"I think the suspect was home, but I might have seen him leave around midnight.",partially_consistent,written for this project; label by construction
+C35,uncertain_witness,I didn't push anyone in the crowd.,"The crowd was chaotic. It's possible that the suspect pushed someone, but I'm not sure.",partially_consistent,written for this project; label by construction
+C36,uncertain_witness,I never opened the confidential folder.,"The suspect was sitting at the computer with the folder, but I can't confirm that he opened it.",partially_consistent,written for this project; label by construction
+C37,uncertain_witness,I wasn't driving faster than the speed limit.,"The suspect may have been speeding a little, but it was hard to tell.",partially_consistent,written for this project; label by construction
+C38,peripheral_conflict,I arrived at the meeting at 2 PM wearing a blue suit and presented the report.,The suspect arrived at the meeting at 2 PM in a black suit and presented the report.,partially_consistent,written for this project; label by construction
+C39,peripheral_conflict,I walked my dog in the park and talked to a neighbor for ten minutes.,The suspect walked his dog in the park and talked to a neighbor for about half an hour.,partially_consistent,written for this project; label by construction
+C40,peripheral_conflict,I drove to the hospital in my white car and helped carry the patient inside.,The suspect drove to the hospital in a silver car and helped carry the patient inside.,partially_consistent,written for this project; label by construction

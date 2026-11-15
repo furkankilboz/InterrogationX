@@ -1,0 +1,82 @@
+{
+  "session_id": "alibi-0065",
+  "title": "Interrogation of Nadine Blackwell",
+  "subject": "Nadine Blackwell",
+  "baseline_turns": 1,
+  "evidence": [
+    {
+      "label": "Fact 1",
+      "text": "She did have a heated argument with the victim, Marcus Webb, at a bar two nights before his death, but it was about a business deal, not personal"
+    },
+    {
+      "label": "Fact 2",
+      "text": "She was at her office with her associate until midnight on the night in question -- confirmed by building security and her associate"
+    },
+    {
+      "label": "Fact 3",
+      "text": "She is annoyed at being treated as a suspect based on circumstantial evidence"
+    }
+  ],
+  "turns": [
+    {
+      "question": "Ms. Blackwell, I'm Detective Morris. Thanks for coming in. I need to ask about Marcus Webb.",
+      "answer": "Detective Morris. I have a deposition at two, so I would appreciate it if we could keep this focused. Marcus Webb is dead, and that is tragic. I knew him professionally. What specifically do you need from me?",
+      "observations": [
+        {
+          "channel": "other",
+          "cue": "checks her watch pointedly",
+          "intensity": 2,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "question": "Witnesses saw you having a heated argument with Marcus at Donovan's Bar two nights before he was killed.",
+      "answer": "Yes, I did. We argued about a property deal he was trying to undercut. I told him his offer was predatory and I would advise my client to reject it. Voices were raised. That happens when adults disagree about business. It is not evidence of homicidal intent. With all due respect, Detective, do you arrest everyone who has an argument at a bar?",
+      "observations": []
+    },
+    {
+      "question": "Marcus was killed between 10 PM and midnight. Where were you during that time?",
+      "answer": "At my office. Blackwell and Associates, 14th floor, Devonshire Tower. I was there from six PM until midnight working on a merger agreement for Alderton Industries. My associate Daniel Reeves was with me the entire time. Your department can pull the building security footage, which will show me entering at five fifty-three and leaving at twelve oh four. Would you like the building manager's contact information?",
+      "observations": []
+    },
+    {
+      "question": "We'll check that. Did you have any personal relationship with Marcus?",
+      "answer": "No. Professional only. I represented clients whose interests occasionally intersected with his. We were cordial when our positions aligned and adversarial when they did not. That is the practice of law. I did not socialize with Marcus Webb. I did not visit his home. I have no knowledge of his personal life beyond what was publicly available.",
+      "observations": []
+    },
+    {
+      "question": "His phone records show a ten-minute call to your office the afternoon he died.",
+      "answer": "Then he called my office, which receives dozens of calls daily. I can check my call logs, but if Marcus called, it was likely about the property deal we argued about. He may have been calling to negotiate or to threaten a competing bid. Either way, a phone call to a law office is not suspicious. It is what law offices are for.",
+      "observations": []
+    },
+    {
+      "question": "You seem pretty defensive about this.",
+      "answer": "I am not defensive. I am efficient. You have pulled me out of my practice to answer questions about a man I barely knew, based on the fact that we argued at a bar. I have given you my alibi, which is iron-clad and independently verifiable. I have answered every question directly. What I will not do is perform humility or anxiety to make you more comfortable with your theory. If my alibi checks out -- and it will -- I expect an apology for the disruption to my workday.",
+      "observations": [
+        {
+          "channel": "eyes",
+          "cue": "leans forward, eyes sharp",
+          "intensity": 2,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "question": "Fair enough. One more question: do you know anyone who would want to hurt Marcus?",
+      "answer": "Marcus Webb was a real estate developer in a competitive market. He made enemies professionally. He was aggressive, occasionally dishonest in negotiations, and he undercut other developers regularly. I can think of at least four people who had active disputes with him. If you want names, I will provide them, because unlike being a suspect, being a witness is actually helpful. Call my office after you have verified my alibi. I am happy to assist the investigation in a productive capacity. Now, may I go?",
+      "observations": [
+        {
+          "channel": "other",
+          "cue": "slides a business card across the table",
+          "intensity": 2,
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "source": "solarkyle/alibi-interrogation-dataset (Apache-2.0), synthetic dialogue #65",
+  "ground_truth": {
+    "alibi": "truth"
+  }
+}

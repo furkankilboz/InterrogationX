@@ -1,0 +1,166 @@
+{
+  "session_id": "alibi-0002",
+  "title": "Interrogation of Priya Anand",
+  "subject": "Priya Anand",
+  "baseline_turns": 1,
+  "evidence": [
+    {
+      "label": "Fact 1",
+      "text": "Priya hit 16-year-old Marcus Chen with her Lexus SUV while texting and driving at 9:15 PM on Maple Street"
+    },
+    {
+      "label": "Fact 2",
+      "text": "She was texting a client about a closing deal when she struck Marcus as he crossed the street"
+    },
+    {
+      "label": "Fact 3",
+      "text": "She panicked, drove home, and parked in her garage"
+    },
+    {
+      "label": "Fact 4",
+      "text": "She noticed damage to her front bumper and headlight, and tried to wash blood traces off with a garden hose at 2 AM"
+    },
+    {
+      "label": "Fact 5",
+      "text": "Marcus died at the hospital two hours after the hit-and-run"
+    }
+  ],
+  "turns": [
+    {
+      "question": "Ms. Anand, thanks for coming in. We're investigating a hit-and-run on Maple Street last night. A teenager was struck by a vehicle. Can you tell me about your evening?",
+      "answer": "Of course. I'm happy to help in any way I can. I'm sorry to hear about that -- that's terrible. My evening was quite uneventful, actually. I had an open house that concluded at approximately six PM over on Birchwood Drive. I drove home, made dinner -- a salad, nothing elaborate -- and I was in for the rest of the night. I did some paperwork for a closing I have this Friday. I was in bed by ten. I apologize if that's not very helpful, but that's really all there is to tell.",
+      "observations": [
+        {
+          "channel": "hands",
+          "cue": "sits with perfect posture, hands folded tightly in lap",
+          "intensity": 2,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "question": "Do you drive a silver Lexus RX, license plate starting with 7-Alpha-Foxtrot?",
+      "answer": "Yes, that's -- that's my vehicle. Why do you ask? The thing is, my car has been parked in my garage since I got home from the open house. I'm sorry, is there -- has someone reported something about my car?",
+      "observations": [
+        {
+          "channel": "eyes",
+          "cue": "blinks rapidly",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "hands",
+          "cue": "clasps hands tighter",
+          "intensity": 2,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "question": "A neighbor's security camera on Maple Street captured a silver Lexus SUV matching your vehicle's description at the scene at 9:17 PM. The plates aren't fully visible, but we can see the first three characters: 7-A-F.",
+      "answer": "I -- well, there must be -- the thing is, there are many silver Lexus SUVs in this area. It's a very popular model. I'm sorry, but that simply wasn't me. I was home. I was -- -- I was at my desk, working. I could show you the documents I was editing. The timestamps on my computer files would confirm that. I apologize, I don't mean to be difficult, but you have the wrong person.",
+      "observations": [
+        {
+          "channel": "eyes",
+          "cue": "jaw clenches, blinks increase",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "voice",
+          "cue": "voice slightly breathy",
+          "intensity": 2,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "question": "We also pulled your cell phone records, Ms. Anand. Your phone pinged a tower on the corner of Maple and Third at 9:14 PM. And phone records show you were actively sending text messages at that time.",
+      "answer": "I -- the thing is -- -- my phone could have -- sometimes phones ping different towers, don't they? I've read that. The signal can bounce. I live only -- I'm only about a mile from Maple Street, so it's possible that -- -- I'm sorry, I don't understand the technology perfectly, but I was home. I was texting my client, yes, Martin Adler, about his closing documents. But I was texting from my home office. I'm absolutely certain.",
+      "observations": [
+        {
+          "channel": "hands",
+          "cue": "hands begin trembling visibly, unclasp and reclasp",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "other",
+          "cue": "sentence fragments",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "voice",
+          "cue": "voice trembling",
+          "intensity": 2,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "question": "I should also tell you that we've obtained a warrant for your vehicle. Officers are at your home right now. They'll be examining your front bumper and headlights. Is there anything you want to tell me before they report back?",
+      "answer": "My -- the thing is, my bumper does have some damage, I should mention that. I backed into a concrete post at the Riverside parking garage last week. I was meaning to get it repaired. I have -- I was going to call the body shop this week, actually. I'm sorry, I should have mentioned that earlier. I wasn't trying to hide anything. It's just a parking incident. I didn't -- -- is the teenager okay? You said they were struck -- are they -- are they going to be all right?",
+      "observations": [
+        {
+          "channel": "voice",
+          "cue": "color drains from face, breathing becomes shallow",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "hands",
+          "cue": "hands shaking badly",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "voice",
+          "cue": "voice breaks",
+          "intensity": 2,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "question": "Marcus Chen was sixteen years old. He died at St. Mary's Hospital at 11:20 PM last night.",
+      "answer": "Oh God. Oh my God. He -- sixteen -- -- I'm sorry. I'm so sorry. The thing is -- -- I can't -- I need -- -- I'm sorry, I need a moment. I can't breathe. I need -- please, I need to -- -- I think I should talk to a lawyer. I'm sorry. I think I need a lawyer before I say anything else. I'm sorry. I'm so sorry.",
+      "observations": [
+        {
+          "channel": "emotion",
+          "cue": "presses both hands over mouth, eyes wide with horror, tears streaming",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "other",
+          "cue": "whole body shaking",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "voice",
+          "cue": "gasping breaths",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "hands",
+          "cue": "presses hands flat on table to steady herself",
+          "intensity": 2,
+          "note": ""
+        },
+        {
+          "channel": "other",
+          "cue": "can't finish sentences, hyperventilating",
+          "intensity": 2,
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "source": "solarkyle/alibi-interrogation-dataset (Apache-2.0), synthetic dialogue #2",
+  "ground_truth": {
+    "alibi": "lie"
+  }
+}
